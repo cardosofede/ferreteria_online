@@ -11,8 +11,8 @@ apptitle = 'Dashboard Base'
 st.set_page_config(page_title=apptitle, page_icon="🦈", layout='wide')
 
 # Add all your applications (pages) here
-app.add_page("Page 1", base_page.app)
-app.add_page("Page 2", base_page.app)
+app.add_page("Ajuste automático de precios", base_page.app)
+# app.add_page("Page 2", base_page.app)
 
 # The main app
 app.run()
